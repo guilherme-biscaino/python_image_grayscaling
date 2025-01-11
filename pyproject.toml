@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sla"
+version = "0.1.0"
+description = ""
+authors = [" guilherme-biscaino  < guilhermebs.bs2@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.10.0"
+pyqt6 = "^6.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
