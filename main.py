@@ -37,8 +37,8 @@ while i < len(base_image):
     i += 1
 
 # arquivamento das imagens
-plt.imsave('real_ou_fake2.jpg', gray_image)
-plt.imsave('real_ou_fake3.jpg', binary_image)
+plt.imsave('grat.jpg', gray_image)
+plt.imsave('binary.jpg', binary_image)
 
 # fim do contador de execução
 print(datetime.datetime.now())
